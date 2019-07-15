@@ -1,0 +1,19 @@
+{
+  "name": "Vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env HOST=0.0.0.0 PORT=3005 nuxt",
+    "start": "nuxt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.7.1",
+    "vuetify": "^1.5.14"
+  }
+}
